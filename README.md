@@ -1,7 +1,7 @@
 # Documentação Técnica: Sistema de Gerenciamento e Alocação de Equipes de Software
 Trabalho final para a disciplina de Padrões e Projetos de Software.
 
-Tema Escolhido
+Tema Escolhido: 
 O tema desenvolvido é um Sistema de Gerenciamento e Alocação de Equipes de Software. O objetivo principal da aplicação é simular o fluxo de combinações (matching) e gerenciamento de requisitos de engenharia de software, recebendo demandas de projeto e alocando-as de forma inteligente a desenvolvedores com perfis específicos (como especialistas em Backend utilizando Java ou PHP, ou especialistas Mobile utilizando Dart/Flutter).
 
 Arquitetura Geral
@@ -97,5 +97,4 @@ classDiagram
     ProjectAllocator o-- AllocationStrategy : utiliza
 ```
 
-Considerações Finais
-A aplicação prática dos padrões Singleton, Factory Method e Strategy demonstrou como problemas clássicos de design de software podem ser resolvidos de forma elegante. A estrutura resultante não apenas atende aos requisitos funcionais de simular um sistema de matching para projetos e desenvolvedores, mas também garante atributos de qualidade vitais, como manutenibilidade e extensibilidade. O código está preparado para crescer de forma sustentável, comprovando o valor do design orientado a objetos aplicado de forma estratégica.
+Considerações Finais: A aplicação prática dos padrões Singleton, Factory Method e Strategy demonstrou como problemas clássicos de design de software podem ser resolvidos de forma elegante. A estrutura resultante não apenas atende aos requisitos funcionais de simular um sistema de matching para projetos e desenvolvedores, mas também garante atributos de qualidade vitais, como manutenibilidade e extensibilidade. O código está preparado para crescer de forma sustentável, comprovando o valor do design orientado a objetos aplicado de forma estratégica.
