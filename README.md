@@ -2,7 +2,7 @@
 Trabalho final para a disciplina de Padrões e Projetos de Software.
 
 Tema Escolhido
-O tema desenvolvido é um Sistema de Gerenciamento e Alocação de Equipes de Software. O objetivo principal da aplicação é simular o fluxo de combinações e gerenciamento de requisitos de engenharia de software, recebendo demandas de projeto e alocando-as de forma inteligente a desenvolvedores com perfis específicos (como especialistas em Backend utilizando Java ou PHP, ou especialistas Mobile utilizando Dart/Flutter).
+O tema desenvolvido é um Sistema de Gerenciamento e Alocação de Equipes de Software. O objetivo principal da aplicação é simular o fluxo de combinações (matching) e gerenciamento de requisitos de engenharia de software, recebendo demandas de projeto e alocando-as de forma inteligente a desenvolvedores com perfis específicos (como especialistas em Backend utilizando Java ou PHP, ou especialistas Mobile utilizando Dart/Flutter).
 
 Arquitetura Geral
 A aplicação foi construída em Java puro, seguindo os princípios da Programação Orientada a Objetos (POO). A arquitetura é modular e dividida em pacotes por responsabilidade:
@@ -37,7 +37,7 @@ Onde: Interface AllocationStrategy e suas implementações (SkillBasedAllocation
 
 Como: O algoritmo de alocação de tarefas foi extraído para uma interface. O ProjectAllocator mantém uma referência para essa interface e delega a ação de alocar. A estratégia pode ser alterada em tempo de execução através do método setStrategy().
 
-Por quê: O processo de "matching" entre requisitos e desenvolvedores pode variar muito (por habilidade, carga horária, primeiro disponível, etc.). O padrão Strategy evita o uso de múltiplos blocos if/else no código principal, permitindo que novos algoritmos de alocação sejam introduzidos sem quebrar o sistema existente.
+Por quê: O processo de matching entre requisitos e desenvolvedores pode variar muito (por habilidade, carga horária, primeiro disponível, etc.). O padrão Strategy evita o uso de múltiplos blocos if/else no código principal, permitindo que novos algoritmos de alocação sejam introduzidos sem quebrar o sistema existente.
 
 Diagrama de Classes (UML Simplificado)
 ``` mermaid
