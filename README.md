@@ -1,6 +1,15 @@
 # Documentação Técnica: Sistema de Gerenciamento e Alocação de Equipes de Software
 Trabalho final para a disciplina de Padrões e Projetos de Software.
 
+Integrantes:
+
+-Kaio Henrique Citta de Sousa - 840321
+
+-Lucas Queiroz Balduino - 839808
+
+-Octávio Santos Junqueira - 840755
+
+
 Tema Escolhido: 
 O tema desenvolvido é um Sistema de Gerenciamento e Alocação de Equipes de Software. O objetivo principal da aplicação é simular o fluxo de combinações (matching) e gerenciamento de requisitos de engenharia de software, recebendo demandas de projeto e alocando-as de forma inteligente a desenvolvedores com perfis específicos (como especialistas em Backend utilizando Java ou PHP, ou especialistas Mobile utilizando Dart/Flutter).
 
