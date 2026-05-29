@@ -5,8 +5,6 @@ Integrantes:
 
 -Kaio Henrique Citta de Sousa - 840321
 
--Lucas Queiroz Balduino - 839808
-
 -Octávio Santos Junqueira - 840755
 
 
